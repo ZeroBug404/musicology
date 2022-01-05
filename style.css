@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ff630b;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+#banner-sec{
+    background-image: url(Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+.header-banner {
+  width: 50%;
+  padding: 50px;
+}
+.header-banner h1 {
+  font-size: 80px;
+}
+.header-banner p {
+  font-size: 20px;
+  /* color: white; */
+}
+.reg-btn {
+  padding: 15px 20px;
+  background-color: #ff630b;
+  border: none;
+  color: white;
+}
+.tour-banner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.tour-banner h1 {
+    max-width: 80%;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+.tour-banner p {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
